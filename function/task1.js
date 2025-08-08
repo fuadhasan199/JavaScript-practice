@@ -1,6 +1,5 @@
 function multi(a,b,c,d){
-    let mul= a*b*c*d 
-    
-    console.log(mul)
+    return a*b*c*d
 } 
-multi(2,5,10,50) 
+ let result=multi(2,5,10,50); 
+ console.log(result);
