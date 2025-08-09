@@ -32,23 +32,69 @@
 // console.log('Your height is',height(70),'fit'); 
 
 
-const array=[10,11,13,15,16,18,20,21] 
 
-function even(value){
 
-const even=[] 
+// function even(value){
 
-for (const el of array) { 
+// const even=[] 
 
-    if(el %2===0){
-        even.push(el)
-    }
+// for (const el of array) { 
+
+//     if(el %2===0){
+//         even.push(el)
+//     }
     
+// } 
+// return even
+
+// }
+// console.log(even()); 
+
+
+// const array=[10,11,13,15,16,18,20,21] 
+
+// function odd_avg(value){
+//     let odd=[]
+
+//     for (const el of array) { 
+
+//         if(el%2===1){
+//             odd.push(el)
+            
+//         } 
+       
+        
+//     }  
+//     let sum=0
+
+//     for (const ele of odd) {
+//         sum=sum+ele
+//     } 
+//     let avarage=sum /odd.length
+//     return avarage
+    
+// } 
+// console.log(odd_avg()); 
+
+/*
+const array=['fuad','porag','abul','sujon','porag','fuad','kabul'] 
+ 
+const new_array=[...new Set(array)] 
+console.log(new_array);
+*/ 
+
+const fruits = ["apple", "banana", "apple", "orange", "banana", "grape"];
+
+const unique=[]  
+function remove(value){
+
+
+for(let i=0; i<fruits.length;i++){
+    if(!unique.includes(value[i])){
+        unique.push(value[i])
+    }
 } 
-return even
-
-}
-console.log(even());
-
-
+return unique
+} 
+console.log(remove(fruits));
 
