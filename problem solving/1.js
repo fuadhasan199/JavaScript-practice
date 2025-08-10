@@ -83,18 +83,24 @@ const new_array=[...new Set(array)]
 console.log(new_array);
 */ 
 
-const fruits = ["apple", "banana", "apple", "orange", "banana", "grape"];
+// const fruits = ["apple", "banana", "apple", "orange", "banana", "grape"];
 
-const unique=[]  
-function remove(value){
+// const unique=[]  
+// function remove(value){
 
 
-for(let i=0; i<fruits.length;i++){
-    if(!unique.includes(value[i])){
-        unique.push(value[i])
-    }
-} 
-return unique
-} 
-console.log(remove(fruits));
+// for(let i=0; i<fruits.length;i++){
+//     if(!unique.includes(value[i])){
+//         unique.push(value[i])
+//     }
+// } 
+// return unique
+// } 
+// console.log(remove(fruits));
 
+// const array=[10,20,30,40,50]
+//  const max=Math.max(...array)
+// console.log(max); 
+
+let max=Math.max(10,20,30)
+console.log(max)
