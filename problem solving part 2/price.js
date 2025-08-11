@@ -8,7 +8,7 @@ function total_price(shirtCount ,pantCount ,shoesCount){
 
     const price=( shirt*shirtCount)+(pant*pantCount)+(shoes*shoesCount)
 
-
+ 
     return price
 
 
