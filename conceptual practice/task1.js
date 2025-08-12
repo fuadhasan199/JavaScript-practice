@@ -22,14 +22,18 @@
 
 
 
-function validNumber(contact){
+function validNumber(contact){ 
+    if(typeof contact !=='string'){
+    return " valid number "
+}
+  
 
 if(contact.length==11 && contact.startsWith("01")==true && contact.includes("")==true){
      return true 
 } else{
     return false
-}
-    
+} 
+  
 
 } 
-console.log(validNumber("017877490952"));
+console.log(validNumber('01787749095'));
